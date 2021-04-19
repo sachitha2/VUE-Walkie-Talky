@@ -5,6 +5,8 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
 Vue.use(firestorePlugin)
+import VueCompositionApi from '@vue/composition-api'
+Vue.use(VueCompositionApi)
 import Home from './components/Home'
 const router = new VueRouter({
   routes: [
